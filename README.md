@@ -19,34 +19,63 @@ Determinar cual tienda ofrece el mejor entorno para que el Sr. Juan venda sus pr
 
 challenge-data-science/
 |
+
 ├── notebooks/
+
 |   └── analisis_completo.ipynb
+
 |
+
 ├── src/
+
 |   ├── analisis_ingresos.py
+
 |   ├── analisis_categorias.py
+
 |   ├── analisis_calificaciones.py
+
 |   ├── analisis_productos.py
+
 |   ├── analisis_costos_envio.py
+
 |   └── analisis_geografico.py
+
 |
+
 ├── data/
+
 |   ├── tienda_1.csv
+
 |   ├── tienda_2.csv
+
 |   ├── tienda_3.csv
+
 |   └── tienda_4.csv
+
 |
+
 ├── visualizaciones/
+
 |   ├── ingresos_por_tienda.png
+
 |   ├── ventas_por_categoria.png
+
 |   ├── calificaciones.png
+
 |   ├── productos_populares.png
+
 |   ├── costos_envio.png
+
 |   └── mapas_calor_geograficos.png
+
 |
+
 ├── requirements.txt
+
 ├── README.md
+
 └── informe_final.pdf
+
 
 ## Instalacion
 
@@ -58,8 +87,8 @@ challenge-data-science/
 ### Instalacion de Dependencias
 
 # Clonar el repositorio
-git clone https://github.com/tu-usuario/challenge-data-science.git
-cd challenge-data-science
+git clone https://github.com/JAG-91/Practicando-Python-para-Data-Science-Challenge-Alura-Store.git
+cd Practicando-Python-para-Data-Science-Challenge-Alura-Store
 
 # Crear entorno virtual (recomendado)
 python -m venv venv
@@ -169,7 +198,7 @@ Solucion: Normalizacion automatica en visualizaciones
 
 ## Salidas del Proyecto
 
-- Visualizaciones: 15+ graficos en formato PNG
+- Visualizaciones: 6 graficos en formato PNG
 - Datos procesados: Archivos CSV con resultados agregados
 - Informe ejecutivo: Resumen de hallazgos clave
 - Recomendacion tecnica: Justificacion basada en datos
