@@ -106,22 +106,9 @@ scipy>=1.7.0
 
 ## Ejecucion del Proyecto
 
-### Opcion 1: Jupyter Notebook
+Jupyter Notebook
 # Iniciar Jupyter Notebook
-jupyter notebook notebooks/analisis_completo.ipynb
-
-### Opcion 2: Scripts Python
-# Ejecutar analisis individuales
-python src/analisis_ingresos.py
-python src/analisis_categorias.py
-python src/analisis_calificaciones.py
-python src/analisis_productos.py
-python src/analisis_costos_envio.py
-python src/analisis_geografico.py
-
-### Opcion 3: Ejecucion completa
-# Ejecutar todos los analisis
-python src/analisis_completo.py
+jupyter notebook notebooks/AluraStoreLatam.ipynb
 
 ## Analisis Realizados
 
@@ -158,11 +145,11 @@ python src/analisis_completo.py
 ## Visualizaciones Generadas
 
 1. Graficos de Ingresos: Barras, torta y ranking
-2. Ventas por Categoria: Graficos de barras agrupadas
+2. Ventas por Categoria: Grafico de barras agrupadas
 3. Calificaciones: Barras con linea de tendencia
 4. Productos Populares: Graficos de barras horizontales
 5. Costos de Envio: Barras con analisis de variacion
-6. Mapas Geograficos: 4 mapas de calor individuales por tienda
+6. Mapas Geograficos: 1 mapa de calor individuales por tienda
 
 ## Resultados Clave
 
